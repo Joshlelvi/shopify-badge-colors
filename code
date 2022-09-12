@@ -1,0 +1,67 @@
+  .card .badge[class*='accent'],
+  .card .badge[class*='inverse'],
+  .product .badge[class*='sale'],
+  .product .badge[class*='sold']{
+    border-color: transparent !important;
+  }
+
+
+  
+/* ## Collection page and sections
+================================== */
+  
+/* Sale badge (collections) */
+.card .badge[class*='accent']{
+    background: #FF5733 !important;
+    color: #ffffff !important;
+  	font-size: 12px !important;
+}
+
+/* Sold out badge (collections) */
+.card .badge[class*='inverse']{
+    background: #000000 !important;
+    color: #f1f1f1 !important;
+    font-size: 12px !important;
+}
+  
+  
+  
+  @media (max-width: 749px){
+    /* Sale badge (collections) */
+    .card .badge[class*='accent']{
+    	font-size: 11px !important;
+    }
+    /* Sold out badge (collections) */
+    .card .badge[class*='inverse']{
+        font-size: 11px !important;
+    }
+  }
+  
+/* ## Product page
+================================== */
+
+/* Sale badge (product page) */
+.product .badge[class*='sale']{
+    background: #FF5733 !important;
+    color: #ffffff !important;
+  	font-size: 14px !important;
+}
+
+/* Sold out badge (product page) */
+.product .badge[class*='sold']{
+    background: #000000 !important;
+    color: #f1f1f1 !important;
+  	font-size: 14px !important;
+}
+  
+  @media (max-width: 749px){
+    /* Sale badge (product page) */
+    .product .badge[class*='sale']{
+      font-size: 13px !important;
+    }
+
+    /* Sold out badge (product page) */
+    .product .badge[class*='sold']{
+      font-size: 13px !important;
+    }
+  }
