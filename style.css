@@ -1,4 +1,4 @@
-  .card .badge[class*='accent'],
+ .card .badge[class*='accent'],
   .card .badge[class*='inverse'],
   .product .badge[class*='sale'],
   .product .badge[class*='sold']{
@@ -27,11 +27,11 @@
   
   
   @media (max-width: 749px){
-    /* Sale badge (collections) */
+    /* Sale badge for Mobile (collections) */
     .card .badge[class*='accent']{
     	font-size: 11px !important;
     }
-    /* Sold out badge (collections) */
+    /* Sold out badge for Mobile (collections) */
     .card .badge[class*='inverse']{
         font-size: 11px !important;
     }
@@ -49,18 +49,18 @@
 
 /* Sold out badge (product page) */
 .product .badge[class*='sold']{
-    background: #000000 !important;
+    background: #FF5733 !important;
     color: #f1f1f1 !important;
   	font-size: 14px !important;
 }
   
   @media (max-width: 749px){
-    /* Sale badge (product page) */
+    /* Sale badge for Mobile (product page) */
     .product .badge[class*='sale']{
       font-size: 13px !important;
     }
 
-    /* Sold out badge (product page) */
+    /* Sold out badge for Mobile (product page) */
     .product .badge[class*='sold']{
       font-size: 13px !important;
     }
